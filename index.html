@@ -1,43 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hello</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div id="logo"><a href="index.html">Oye.Kalpaa</a></div>
-        <div class="menu-bar">
-          <a href="#home">Home</a>
-          <a href="about.html">About Me</a>
-          <a href="topicf.html">Topic.flex</a>
-          <a href="topicg.html">Topic.grid</a>
-        </div>
-      </nav>
-    <main id="home">
-        <div class="img-box">
-            <img src="assets/img1.JPG" alt="image 1">
-            <img src="assets/img2.JPG" alt="image 2">
-            <img src="assets/img3.JPG" alt="image 3">
-        </div>
-        <div class="content">
-            <p>
-                Hello I'm Kalpesh Prajapati. Many of my friends from India used to say "Oye Kalpaa" to me. So that's why I choose this 
-                website name.
-               </p> <p>
-                My native country is India and I completed my Bachelor's degree in Computer Engineering and now in Canada I am persuing 
-                my Post graduation diploma in Web development under your guidance.
-            </p>
-        </div>
-    </main>
-    <footer>
 
-    </footer>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Kalpesh Prajapati</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#About">About</a>
+        <a class="nav-item nav-link" href="#Projects">Projects</a>
+        <a class="nav-item nav-link" href="#Contact">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+<div class="body">
+  <!-- Hero section -->
+  <section id="Home">
+    <div class="hero-content">
+      <h5>Hi there, I'm</h5>
+      <h2>Kalpesh Prajapati</h2>
+      <h6>Web Designer | Web Developer</h6>
+    </div>
+    <img class="hero-img" src="./Assets/coworking-male-programmer-writing-program-code.gif" height="340px" alt="Hero img" >
+  </section>
+
+  <!-- About Section -->
+  <section id="About">
+    
+    <div class="abt-content">    
+      <p> <span class="abt-header">About Me</span>I'm a highly motivated web designer that is passionate about changing existing websites. By incorporating the most recent design trends and user experience best practices, I revitalize hosted sites, increasing their interaction and functionality. This results in a more engaging experience for visitors, which leads to improved conversions and brand loyalty.</p>
+      <img src="./Assets/kalpesh.JPG" alt="Kalpesh picture">
+    </div>
+  </section>
+  
+  <!-- Skill section -->
+  <section class="skill">
+    <div class="logos">
+      
+      
+        <div class="logo_items">
+      <i class="fa-brands fa-html5"></i>      
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-bootstrap"></i>
+      <i class="fa-brands fa-js"></i>
+      <i class="fa-brands fa-react"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-node-js"></i>
+      <i class="fa-brands fa-hubspot"></i>
+      <i class="fa-brands fa-wordpress-simple"></i>
+      </div>
+      <div class="logo_items">
+        <i class="fa-brands fa-html5"></i>      
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-node-js"></i>
+        <i class="fa-brands fa-hubspot"></i>
+        <i class="fa-brands fa-wordpress-simple"></i>
+        </div>
+        <div class="logo_items">
+          <i class="fa-brands fa-html5"></i>      
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-node-js"></i>
+          <i class="fa-brands fa-hubspot"></i>
+          <i class="fa-brands fa-wordpress-simple"></i>
+          </div>
+          <div class="logo_items">
+            <i class="fa-brands fa-html5"></i>      
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-bootstrap"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-hubspot"></i>
+            <i class="fa-brands fa-wordpress-simple"></i>
+            </div>             
+      </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="Projects">
+    <div class="project-header">
+      <h3>Projects</h3>
+    </div>
+    <div class="card w-75 bg-transparent">
+      <div class="card-body">
+        <h5 class="card-title">KahaHR</h5>
+        <p class="card-text">
+          &nbsp; &nbsp; &nbsp; &nbsp;KayaHR is a full-fledged HR software website that facilitates, optimizes, and automates any
+          organization's various HR functions or processes. It has been made to streamline tasks like payroll
+          management, hiring employees, time tracking, performance management, employee data
+          management, and the implementation of weather API. The tool's usability is always mentioned
+          because of the features of an intuitive user interface that is scalable and easily integrated with
+          other business systems. This gives the tool a multiplatform character for small and large enterprise
+          applications in the industry field. <br>
+          &nbsp; &nbsp; &nbsp; Indeed, KayaHR not only reserves that departments in HR life would be made more efficient
+          using emerging technologies, but also, process and work manuals can be reduced. In contrast,
+          decisions can be made in a data-driven way. By eliminating mundane tasks of the people, the
+          software shifts their attention to strategic issues such as employee appreciation and talent
+          management, thus preserving their time for complex and more important matters.</p>
+        <a href="https://github.com/eshwinrio/kaya-hr" class="btn">GitHub Link</a>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="Contact">
+    <div class="contact-header">
+      <h3>No Need <br> To Be Shy &nbsp;
+        <i class="fa-solid fa-arrow-right"></i> 
+      </h3>
+    <p>Feel Free To Contact Me!</p>
+    </div>
+
+
+        <div class="formm">
+            <form action="index.html" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" id="">
+                  <label> Name</label>
+              </div>
+              
+              <div class="form-group">
+                  <textarea class="form-control" row="12"></textarea>
+                  <label>Message</label>
+              </div>
+              <div class="input-group email">
+                    <input type="email" class="form-control">
+                  <label>Email</label>
+              </div>
+            </form>
+            <button type=""  class="submit-btn">Send</button>
+          </div>
+      </div>
+  </div>
+  </section>
+</div>
+  <!-- Footer -->
+  <hr>
+    <section class="footer">
+      <h3><a class="navbar-brand" href="/">Kalpesh Prajapati</a></h3>
+      <div class="social-box">
+        <a href="https://www.linkedin.com/in/kalpesh-prajapati-3126011b0/" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Kalpesh406" class="social-icon"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <p>Made with ❤️</p>
+    </section>
+
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
