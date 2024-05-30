@@ -92,6 +92,32 @@ hr{
 .abt-content p{
     max-width: 50%;
 }
+.abt-content a{
+    padding: 5px 30px;
+    align-items: center;
+    color: #292929;
+    border-color: #292929;
+    border: 1px solid;
+    border-radius: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: all ease-in-out 200ms;
+    box-sizing: content-box ;
+    border-radius: 10px 0;
+    text-decoration: none;
+}
+.abt-content a:hover{
+    margin-top: 40px;
+    padding: 5px 30px;
+    align-items: center;
+    background: #292929;
+    color:#F1EADC;
+    border-color: transparent;
+    border-radius: 0 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+  }
 .abt-content img{
     height: 300px;
     object-fit: contain;
