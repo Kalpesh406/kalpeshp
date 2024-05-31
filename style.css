@@ -92,10 +92,10 @@ hr{
 .abt-content p{
     max-width: 50%;
 }
-.abt-content a{
+.abt-content button{
     padding: 5px 30px;
     align-items: center;
-    color: #292929;
+    
     border-color: #292929;
     border: 1px solid;
     border-radius: 0;
@@ -106,17 +106,23 @@ hr{
     border-radius: 10px 0;
     text-decoration: none;
 }
-.abt-content a:hover{
-    margin-top: 40px;
+.abt-content button:hover{
     padding: 5px 30px;
     align-items: center;
     background: #292929;
-    color:#F1EADC;
+    
     border-color: transparent;
     border-radius: 0 10px;
     letter-spacing: 1px;
     cursor: pointer;
-
+  }
+  .abt-content button:hover a{
+    color:#F1EADC;
+  }
+  .abt-content a{
+    transition: all ease-in-out 200ms;
+    text-decoration: none;
+    color: #292929;
   }
 .abt-content img{
     height: 300px;
