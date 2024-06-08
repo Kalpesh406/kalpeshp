@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap");
+
 .color {
   background-color: #f76b69;
   background-color: #262626;
@@ -9,17 +10,21 @@
   background-color: #292929;
   background-color: #e2e2e4;
 }
+
 * {
   scroll-behavior: smooth;
 }
+
 hr {
   margin: 0;
 }
+
 .navbar {
   z-index: 1000;
   position: fixed;
   width: 100%;
 }
+
 .navbar-brand {
   font-family: "Grand Hotel", cursive;
   font-weight: 400;
@@ -35,9 +40,11 @@ hr {
   background-color: #f1eadc;
   height: 100vh;
 }
+
 .hero-content {
   padding-top: 200px;
 }
+
 .hero-content h2 {
   font-size: 84px;
   line-height: normal;
@@ -46,6 +53,7 @@ hr {
   font-weight: 400;
   font-style: normal;
 }
+
 .hero-content h6 {
   margin-top: 0%;
   font-size: 1rem;
@@ -53,16 +61,16 @@ hr {
   margin-bottom: 20px;
   text-align: end;
 }
+
 .hero-content h5 {
   margin-top: 0%;
   font-size: 1.1rem;
   color: grey;
   margin-bottom: 0%;
 }
-.hero-content img {
-  height: 30px;
-}
+
 .hero-img {
+  height: 340px;
   position: relative;
   top: 100%;
   transform: translate(0, -100%);
@@ -75,12 +83,14 @@ hr {
   padding-top: 140px;
   box-sizing: content-box;
 }
+
 .abt-header {
   display: block;
   font-weight: 700;
   font-size: 2rem;
   margin-bottom: 10px;
 }
+
 .abt-content {
   display: flex;
   justify-content: space-around;
@@ -91,13 +101,14 @@ hr {
   margin-bottom: 10px;
   letter-spacing: 1.1px;
 }
+
 .abt-content p {
   max-width: 50%;
 }
+
 .abt-content button {
   padding: 5px 30px;
   align-items: center;
-
   border-color: #292929;
   border: 1px solid;
   border-radius: 0;
@@ -108,24 +119,24 @@ hr {
   border-radius: 10px 0;
   text-decoration: none;
 }
-.abt-content button:hover {
-  padding: 5px 30px;
-  align-items: center;
-  background: #292929;
 
+.abt-content button:hover {
+  background: #292929;
   border-color: transparent;
   border-radius: 0 10px;
-  letter-spacing: 1px;
   cursor: pointer;
 }
+
 .abt-content button:hover a {
   color: #f1eadc;
 }
+
 .abt-content a {
   transition: all ease-in-out 200ms;
   text-decoration: none;
   color: #292929;
 }
+
 .abt-content img {
   height: 300px;
   object-fit: contain;
@@ -133,9 +144,8 @@ hr {
   transition: all ease-in-out 0.2s;
   border-radius: 0px;
 }
+
 .abt-content img:hover {
-  height: 300px;
-  object-fit: contain;
   filter: grayscale(0);
   border-radius: 10px;
 }
@@ -146,10 +156,12 @@ hr {
   display: block;
   height: 100px;
 }
+
 @keyframes slides {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
@@ -174,20 +186,16 @@ hr {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to left,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255));
 }
 
 .logo_items {
@@ -213,48 +221,60 @@ hr {
   background-color: #f1eadc;
   height: 100vh;
 }
+
 .project-header h3 {
   padding-top: 70px;
   font-weight: 700;
   font-size: 2rem;
 }
+
 .card-body {
   font-family: "LXGW WenKai TC", cursive;
   font-weight: 400;
   font-style: normal;
   border-color: #292929;
 }
+
 .card-title {
   font-weight: 700;
 }
+
 .card-text {
   letter-spacing: 0.7px;
   line-height: 25px;
+  margin-bottom: 20px;
 }
-.card-body a {
-  margin-top: 40px;
+
+.card-body button {
   padding: 5px 30px;
   align-items: center;
-  color: #292929;
   border-color: #292929;
+  border: 1px solid;
   border-radius: 0;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
   transition: all ease-in-out 200ms;
   box-sizing: content-box;
   border-radius: 10px 0;
+  background-color: transparent;
+  text-decoration: none;
 }
-.card-body a:hover {
-  margin-top: 40px;
-  padding: 5px 30px;
-  align-items: center;
+
+.card-body button:hover {
   background: #292929;
-  color: #f1eadc;
   border-color: transparent;
   border-radius: 0 10px;
-  font-size: 20px;
-  letter-spacing: 1px;
   cursor: pointer;
+}
+
+.card-body button:hover a {
+  color: #f1eadc;
+}
+
+.card-body a {
+  transition: all ease-in-out 200ms;
+  text-decoration: none;
+  color: #292929;
 }
 
 /* Contact Page */
@@ -264,6 +284,7 @@ hr {
   align-items: center;
   height: 84vh;
 }
+
 .contact-header h3 {
   font-size: 68px;
   font-family: "Rubik Mono One", monospace;
@@ -273,9 +294,11 @@ hr {
   word-spacing: -37px;
   margin-bottom: 0%;
 }
+
 .contact-header i {
   font-size: 68px;
 }
+
 .contact-header p {
   padding-left: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -284,10 +307,12 @@ hr {
   font-size: 20px;
   letter-spacing: 3px;
 }
+
 .form-group {
   position: relative;
   margin: 40px auto;
 }
+
 .form-control {
   position: relative;
   z-index: 1;
@@ -300,7 +325,7 @@ hr {
   border-bottom: 1px solid #262626;
   background-color: transparent;
 
-  & + label {
+  &+label {
     position: absolute;
     top: 10px;
     left: 3px;
@@ -308,19 +333,22 @@ hr {
     color: #292929;
     transition: all 0.4s ease-out;
   }
+
   &:focus {
     box-shadow: none;
     outline: none;
     border-width: 2px;
     border-color: #292929;
   }
-  &:focus + label,
-  &.has-value + label {
+
+  &:focus+label,
+  &.has-value+label {
     top: -15px;
     color: #292929;
     font-size: 12px;
   }
 }
+
 .form-group select,
 .mob,
 .det {
@@ -347,16 +375,12 @@ textarea {
   box-sizing: content-box;
   border-radius: 10px 0;
 }
+
 .submit-btn:hover {
-  margin-top: 40px;
-  padding: 5px 30px;
-  align-items: center;
   background: #292929;
   color: #f1eadc;
   border-color: transparent;
   border-radius: 0 10px;
-  font-size: 20px;
-  letter-spacing: 1px;
   cursor: pointer;
 }
 
@@ -368,26 +392,274 @@ textarea {
   align-items: center;
   height: 75px;
 }
+
 .footer h3,
 p,
 div {
   margin-bottom: 0%;
 }
+
 .footer .navbar-brand {
   font-size: 2rem;
 }
+
 .footer .social-box {
   width: 40px;
   display: flex;
   justify-content: space-between;
 }
+
 .social-icon {
   color: #292929;
   cursor: pointer;
 }
 
+
+
+/* MObile Version */
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+
+  #Home {
+    height: 700px;
+    flex-direction: column;
   }
+
+  .hero-content {
+    padding-top: 70px;
+  }
+
+  .hero-content h5 {
+    font-size: 20px;
+  }
+
+  .hero-content h2 {
+    font-size: 60px;
+  }
+
+  .hero-content h6 {
+    font-size: 0.8rem;
+    text-align: start;
+  }
+
+  .hero-img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 55%;
+    transform: translate(25%, -100%);
+  }
+
+  /* About */
+  #About {
+    height: auto;
+    padding: auto 10%;
+    padding-top: 70px;
+    box-sizing: content-box;
+  }
+
+  .abt-header {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .abt-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin: auto 0;
+    margin-bottom: 10px;
+  }
+
+  .abt-content p {
+    max-width: 90%;
+  }
+
+  .abt-content img {
+    display: none;
+  }
+
+  /* Skills bar */
+  .skill-bar {
+    margin-top: 0px;
+    display: block;
+    height: 0px;
+  }
+
+  /* Project Page */
+  #Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1eadc;
+    height: auto;
+  }
+
+  .project-header h3 {
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .card-body {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    border-color: #292929;
+  }
+
+  .card-title {
+    font-weight: 700;
+  }
+
+  .card-text {
+    line-height: auto;
+    margin-bottom: 20px;
+  }
+
+
+  /* Contact Page */
+  #Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+    overflow-x: hidden;
+  }
+
+  .contact-header h3 {
+    font-size: 50px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    word-spacing: -25px;
+    margin-bottom: 0%;
+  }
+
+  .contact-header i {
+    font-size: 68px;
+    rotate: 90deg;
+  }
+
+  .contact-header p {
+    padding-left: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Verdana, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: gray;
+  }
+
+  .formm {
+    width: 90%;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .form-control {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #262626;
+    background-color: transparent;
+
+    &+label {
+      position: absolute;
+      top: 10px;
+      left: 3px;
+      font-size: 16px;
+      color: #292929;
+      transition: all 0.4s ease-out;
+    }
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      border-width: 2px;
+      border-color: #292929;
+    }
+
+    &:focus+label,
+    &.has-value+label {
+      top: -15px;
+      color: #292929;
+      font-size: 12px;
+    }
+  }
+
+  .form-group select,
+  .mob,
+  .det {
+    margin-bottom: 15px;
+    width: 40%;
+  }
+
+  textarea {
+    overflow-y: hidden;
+    max-height: 100px;
+    min-height: 36px;
+  }
+
+  .submit-btn {
+    margin-top: 40px;
+    padding: 5px 30px;
+    align-items: center;
+    color: #292929;
+    border-color: #292929;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: all ease-in-out 200ms;
+    box-sizing: content-box;
+    border-radius: 10px 0;
+  }
+
+  /* Footer */
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+  }
+
+  .footer h3,
+  p,
+  div {
+    margin-bottom: 0%;
+  }
+
+  .footer .navbar-brand {
+    font-size: 1.5rem;
+    color: #545454;
+  }
+
+  .footer .social-box {
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-icon {
+    color: #8f8f8f;
+    cursor: pointer;
+  }
+
 }
